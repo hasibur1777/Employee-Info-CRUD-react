@@ -30,7 +30,7 @@ class About extends React.Component {
                 </a>
                 <a
                   type="button"
-                  href="http://footsteps-hrahman1777.herokuapp.com/register"
+                  href="https://github.com/hasibur1777/Employee-Info-CRUD-react.git"
                   className="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold"
                 >
                   React
