@@ -55,7 +55,9 @@ class AllData extends React.Component {
     return this.state.data.map((emp) => (
       <tr key={cnt}>
         <th scope="row">{cnt++}</th>
-        <td>{emp.user_id}</td>
+        <td>
+          <Link to={`/view/${emp.id}`}>{emp.user_id}</Link>
+        </td>
         <td>{emp.dept}</td>
         <td>
           <Link
